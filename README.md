@@ -2,4 +2,4 @@
 
 Site em HTML e CSS responsivo sem uso de frameworks, bem comentado para o melhor entendimento.
 
-pedrocleancode.ga
+está hospedado em http://www.pedrocleancode.ga
