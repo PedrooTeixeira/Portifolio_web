@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+         <title>Pedro Developer</title>
+        <meta name="viewport" content="width-device-width, initial-scale=1">
+        <!--------------COR-DO-CHROME------------->
+        <meta name="theme-color" content="#3f3f3f">
+        <!--------------COR-DO-IOS-SAFARI--------->
+        <meta name="apple-mobile-web-app-status-bar-style" content="#3f3f3f">
+        <!-----COR-DO-WINDOWS-PHONE-BROWSER------->
+        <meta name="msapplication-navbutton-color" content="#3f3f3f">
+        
+        <meta name="description" content="Olá meu nome é Pedro Teixeira, sou estudante em Análise de sitemas, meu foco é WebDesign">
+        
+        <link rel="icon" href="img/favicon.png">
+        
+        <link rel="stylesheet" href="css/estilo.css">
+        <meta name="description" content="Pedro Henrique">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+    </head>
+    <body>
+        
+        <!--HEADER--------------------------------->
+        <header>
+            <div id="logo">
+                <a><img src="img/logo.png" alt="Logo"></a>
+            </div>
+            
+            <nav id="main-nav">
+                <i  id="sanduiche" class="fas fa-align-justify"></i>
+                <ul>
+                    <a href="#home"><li>Home</li></a>
+                    <a href="#about"><li>Sobre</li></a>
+                    <a href="#work"><li>Projetos</li></a>
+                    <a href="#contact"><li>Contato</li></a>
+                </ul>
+            </nav>
+        </header>
+        
+        <!--HOME---------------------------------->
+        <div class="scroll">
+            <section id="home">
+                <hr>
+                <h1>&lt;Pedro/&gt;</h1>
+                <h2>Developer</h2>
+                <a href="#about"><img src="img/seta.png" alt="Seta"></a>
+            </section>
+
+            <!--ABOUT---------------------------------->
+
+            <section id="about">
+                <h3>Sobre</h3>
+                <hr>
+                <img src="img/avatar.png" alt="Avatar">
+                <h4>Pedro Henrique</h4>
+                <p>Olá, meu nome é Pedro Henrique, sou estudante de Análise de Sistemas apaixonado por tecnologia e tenho grande paixão por web developer, gosto muito de deselvover novos projetos, não pensando em criar algo, mas sim facilitar a vida das pessoas, solucionar problemas e trazer soluções.</p>
+                <p> Autodidata focado em conhecer novas oportunidades e plataformas que visem alcançar benefícios para a empresa e seus colaboradores.</p>
+            </section>
+
+            <!--WORK------------------------------------>
+            <section id="work">
+                <h3>Projetos</h3>
+                <hr>
+                <div id="projects">
+                    <ul>
+                        <li><a href="#" target="_blank"><img src="img/breve.png" alt="Projects_01"></a></li>
+                        <li><a href="#" target="_blank"><img src="img/breve.png" alt="Projects_02"></a></li>
+                        <li><a href="#" target="_blank"><img src="img/breve.png" alt="Projects_03"></a></li>
+                        <li><a href="#" target="_blank"><img src="img/breve.png" alt="Projects_04"></a></li>
+                        <li><a href="#" target="_blank"><img src="img/breve.png" alt="Projects_05"></a></li>
+                        <li><a href="#" target="_blank"><img src="img/breve.png" alt="Projects_06"></a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--CONTATO--------------------------------->
+            <section id="contact">
+                <h3>Contato</h3>
+                <hr>
+                <form action="contato.php" method="post">
+                    <input type="txtname" name="nome" tabindex="1" placeholder="Nome"><br>
+                    <input type="email" name="email" tabindex="2" placeholder="E-mail"><br>
+                    <textarea tabindex="3" name="assunto" placeholder="Texto"></textarea><br>
+                    <input class="button" type="submit">
+                </form>
+                    <div class="social">
+                    <a href="#" target="_blank"><img src="https://img.icons8.com/windows/32/000000/whatsapp.png"></a>
+                    <a href="#" target="_blank"><img src="https://img.icons8.com/windows/32/000000/facebook.png"></a>
+                    <a href="#" target="_blank"><img src="https://img.icons8.com/windows/32/000000/linkedin.png"></a>
+                    </div>
+                </section>
+        
+            <!--FOOTER---------------------------------->
+            <footer>
+                <p> &copy; 2019 - Pedro</p>
+            </footer>
+        </div>  
+        
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+        <script src="js/mobile.js"></script>
+    </body>
+</html>
